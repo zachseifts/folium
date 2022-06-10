@@ -26,10 +26,6 @@ ENV = Environment(loader=PackageLoader('folium', 'templates'))
 _default_js = [
     ('leaflet',
      'https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js'),
-    ('jquery',
-     'https://code.jquery.com/jquery-1.12.4.min.js'),
-    ('bootstrap',
-     'https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js'),
     ('awesome_markers',
      'https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js'),  # noqa
     ]
@@ -37,10 +33,6 @@ _default_js = [
 _default_css = [
     ('leaflet_css',
      'https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css'),
-    ('bootstrap_css',
-     'https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'),
-    ('bootstrap_theme_css',
-     'https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css'),  # noqa
     ('awesome_markers_font_css',
      'https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'),  # noqa
     ('awesome_markers_css',
