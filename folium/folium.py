@@ -157,11 +157,8 @@ class Map(JSCSSMixin, MacroElement):
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
                 #{{ this.get_name() }} {
-                    position: {{this.position}};
                     width: {{this.width[0]}}{{this.width[1]}};
                     height: {{this.height[0]}}{{this.height[1]}};
-                    left: {{this.left[0]}}{{this.left[1]}};
-                    top: {{this.top[0]}}{{this.top[1]}};
                 }
             </style>
         {% endmacro %}
